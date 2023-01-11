@@ -50,7 +50,7 @@ dependencies {
 
 test {
     outputs.upToDateWhen { return false }
-    useJUnitPlatform()
+    useTestNG()
     doFirst {
         def weaver = configurations.testRuntimeClasspath.find { it.name.contains("aspectjweaver") }
         jvmArgs += "-javaagent:$weaver"
