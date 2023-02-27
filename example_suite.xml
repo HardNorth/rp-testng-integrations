@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example Suite" parallel="tests" thread-count="1">
+    <test name="Item Attribute Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.attribute.ItemAttributeTest"/>
+        </classes>
+    </test>
+    <test name="Test Case ID Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.id.TestCaseIdTest"/>
+        </classes>
+    </test>
+    <test name="HTTP Components Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.logging.HttpComponentsFormTest"/>
+        </classes>
+    </test>
+    <test name="Launch URL Logging Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.logging.LaunchUrlLoggingTest"/>
+        </classes>
+    </test>
+    <test name="Logging Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.logging.LoggingTest"/>
+        </classes>
+    </test>
+    <test name="Ok HTTP 3 Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.logging.OkHttp3MultipartTest"/>
+        </classes>
+    </test>
+    <test name="Rest Assured Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.logging.RestAssuredBasicLoggingTest"/>
+        </classes>
+    </test>
+    <test name="Selenide Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.logging.SelenideLoggingTest"/>
+        </classes>
+    </test>
+    <test name="Nested Steps Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.step.NestedStepsTest"/>
+        </classes>
+    </test>
+    <test name="Nested Steps Data Provider Test">
+        <classes>
+            <class name="com.epam.reportportal.example.testng.step.NestedStepsWithDataProvider"/>
+        </classes>
+    </test>
+</suite>

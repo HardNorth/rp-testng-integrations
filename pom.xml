@@ -125,6 +125,9 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>example_suite.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
                 <dependencies>
                     <!-- For nested steps -->
